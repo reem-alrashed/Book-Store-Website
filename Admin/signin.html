@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Book Store</title>
+  <link href="css/loginformstyle.css" rel="stylesheet">
+<style>
+body{
+text-align:center;
+}
+</style>
+</head>
+<body>
+  <br/><br/>
+  <div class="logo">
+    <img src="pic/logo.png" width="200" alt="logo">
+  </div>
+  <h1>Welcome to Book Store System</h1>
+<h1>Customer sign in page</h1>
+<form name="SigninForm" method="POST" action="signin.php">
+  <fieldset>
+    <legend>Sign in For Customer </legend>
+    <div class="container">
+  <label for="uname"><b>Username :</b></label>
+  <input type="text" placeholder="Enter Username" name="username" required><br/><br/>
+  <label for="psw"><b>Password</b></label>
+  <input type="password" placeholder="Enter password"name="password" required><br/><br/><br/>
+  <input type="submit" value="login"><br/><br/>
+  <input type="reset" value="reset"><br/><br/>
+  </fieldset>
+</form>
+</body>
+</html>
